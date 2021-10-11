@@ -1,6 +1,6 @@
 import unittest
 
-from CLass_Offline import Offline
+from Class_Offline import Offline
 from Class_Online import Online
 from Class_Client_Server_Login import Client_Server_Login
 from Class_Start import Start
@@ -45,7 +45,7 @@ class TestStringMethods(unittest.TestCase):
         skibe = Skibe()
         #To be implemented
         self.assertTrue(False)
-    
+
     def test_integrationsTest_af_Class_Spil(self):
         spil = Spil()
         #To be implemented

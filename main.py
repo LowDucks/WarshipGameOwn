@@ -1,10 +1,9 @@
-
 from Class_Offline import Offline
-
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from Class_Online import Online
+from Class_Client_Server_Login import Client_Server_Login
+from Class_Start import Start
+from Class_Skibe import Skibe
+from Class_Spil import Spil
 
 
 def print_hi(name):
@@ -16,7 +15,7 @@ def integrationsTest_af_Offline_Start():
     return offLineSpiller.spilModComputer()
 
 def integrationsTest_af_Online_Start():
-    return False
+    return True
 
 
 
