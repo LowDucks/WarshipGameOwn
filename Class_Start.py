@@ -20,7 +20,6 @@ class Start:
         # Load mappets grid hvor man skal kunne placere skibe på
         # Tjek at spillerne kan connect
         # Load Spillernes data
-        #
         return True
 
     def aktiverSpil(self):
@@ -34,9 +33,9 @@ class Start:
         #Hvis der er fejl tjek over alle igen, hvis de jo f.eks er connection kan det være det lykkes anden gang.
         #Hvis alle funktioner virker og der ikke er nogen fejl, gå videre til Class_Spil
 
-        print("Inde i check funktion")
+        print("Kører unittest af Class_start.py")
         if (self.aktiverSpil(self) and self.loadSpilData(self) and self.forbindSpillere(self) == True):
-            print("Alle funktioner er startet korrekt")
+            print("Alle funktioner er startet korrekt", "\n")
             return True
 
 Start.check(Start)
