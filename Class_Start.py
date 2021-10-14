@@ -5,8 +5,6 @@ class Start:
         # Hvis Online, kør serveren, så den er klar til at forbinde spilerne.
         # Hvis Offline gør AI klar på det niveau der er valgt.
 
-        if self.check()==True:
-         print("returnerer True til Offline objekt")
          return True
 
 
